@@ -24,7 +24,7 @@ Laravel RBAC package
 
 Via composer:
 
-```composer require "defyma/laravel-rbac"
+```composer require "defyma/laravel-rbac"```
 
 or in section **require** of composer.json file set the following:
 ```
