@@ -1,13 +1,13 @@
 <?php
 
-namespace Itstructure\LaRbac\Exceptions;
+namespace defyma\helper\LaraRbac\Exceptions;
 
 use Exception;
 
 /**
  * Class InvalidConfigException
  *
- * @package Itstructure\LaRbac\Exceptions
+ * @package defyma\helper\LaraRbac\Exceptions
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

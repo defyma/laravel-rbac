@@ -1,14 +1,14 @@
 <?php
 
-namespace Itstructure\LaRbac\Helpers;
+namespace defyma\helper\LaraRbac\Helpers;
 
-use Itstructure\LaRbac\Exceptions\InvalidConfigException;
-use Itstructure\LaRbac\Contracts\User as UserContract;
+use defyma\helper\laraRbac\Contracts\User as UserContract;
+use defyma\helper\LaraRbac\Exceptions\InvalidConfigException;
 
 /**
  * Class Helper
  *
- * @package Itstructure\LaRbac\Helpers
+ * @package defyma\helper\LaraRbac\Helpers
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

@@ -1,14 +1,14 @@
 <?php
 
-namespace Itstructure\LaRbac\Contracts;
+namespace defyma\helper\laraRbac\Contracts;
 
+use defyma\helper\LaraRbac\Models\Role;
 use Illuminate\Contracts\Auth\Authenticatable;
-use Itstructure\LaRbac\Models\Role;
 
 /**
  * Interface User
  *
- * @package Itstructure\LaRbac\Contracts
+ * @package defyma\helper\laraRbac\Contracts
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

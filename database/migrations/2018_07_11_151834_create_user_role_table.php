@@ -1,10 +1,10 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
+use defyma\helper\LaraRbac\Exceptions\InvalidConfigException;
+use defyma\helper\LaraRbac\Helpers\Helper;
 use Illuminate\Database\Migrations\Migration;
-use Itstructure\LaRbac\Helpers\Helper;
-use Itstructure\LaRbac\Exceptions\InvalidConfigException;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
 /**
  * Class CreateUserRoleTable

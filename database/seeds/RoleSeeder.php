@@ -1,7 +1,7 @@
 <?php
 
+use defyma\helper\LaraRbac\Models\{Permission, Role};
 use Illuminate\Database\Seeder;
-use Itstructure\LaRbac\Models\{Role, Permission};
 
 /**
  * Class RoleSeeder

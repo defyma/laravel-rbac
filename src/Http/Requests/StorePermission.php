@@ -1,13 +1,13 @@
 <?php
 
-namespace Itstructure\LaRbac\Http\Requests;
+namespace defyma\helper\LaraRbac\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
 /**
  * Class StorePermission
  *
- * @package Itstructure\LaRbac\Http\Requests
+ * @package defyma\helper\LaraRbac\Http\Requests
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

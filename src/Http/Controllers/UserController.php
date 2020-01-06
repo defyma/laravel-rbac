@@ -1,20 +1,17 @@
 <?php
 
-namespace Itstructure\LaRbac\Http\Controllers;
+namespace defyma\helper\LaraRbac\Http\Controllers;
 
-use Illuminate\Support\Facades\Config;
-use Itstructure\LaRbac\Helpers\Helper;
-use Itstructure\LaRbac\Models\Role;
-use Itstructure\LaRbac\Http\Requests\{
-    UpdateUser as UpdateUserRequest,
-    Delete as DeleteUserRequest
-};
 use App\Http\Controllers\Controller;
+use defyma\helper\LaraRbac\Helpers\Helper;
+use defyma\helper\LaraRbac\Http\Requests\{Delete as DeleteUserRequest, UpdateUser as UpdateUserRequest};
+use defyma\helper\LaraRbac\Models\Role;
+use Illuminate\Support\Facades\Config;
 
 /**
  * Class UserController
  *
- * @package Itstructure\LaRbac\Http\Controllers
+ * @package defyma\helper\LaraRbac\Http\Controllers
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

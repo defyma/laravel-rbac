@@ -1,15 +1,15 @@
 <?php
 
-namespace Itstructure\LaRbac\Models;
+namespace defyma\helper\LaraRbac\Models;
 
+use defyma\helper\LaraRbac\Exceptions\InvalidConfigException;
+use defyma\helper\LaraRbac\Helpers\Helper;
 use Illuminate\Database\Eloquent\Model;
-use Itstructure\LaRbac\Exceptions\InvalidConfigException;
-use Itstructure\LaRbac\Helpers\Helper;
 
 /**
  * Class Role
  *
- * @package Itstructure\LaRbac\Models
+ * @package defyma\helper\LaraRbac\Models
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

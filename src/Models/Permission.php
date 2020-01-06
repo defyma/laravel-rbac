@@ -1,13 +1,13 @@
 <?php
 
-namespace Itstructure\LaRbac\Models;
+namespace defyma\helper\LaraRbac\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class Permission
  *
- * @package Itstructure\LaRbac\Models
+ * @package defyma\helper\LaraRbac\Models
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

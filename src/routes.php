@@ -1,7 +1,7 @@
 <?php
 
-use \Illuminate\Support\Facades\Route;
-use Itstructure\LaRbac\Models\Permission;
+use defyma\helper\LaraRbac\Models\Permission;
+use Illuminate\Support\Facades\Route;
 
 /*
  * RBAC admin section

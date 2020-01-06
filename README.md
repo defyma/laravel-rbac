@@ -66,7 +66,7 @@ Then run command:
 
 ### 3.3 App config
 
-Add to application ```config/app.php``` file to section **providers**: ```Itstructure\LaRbac\RbacServiceProvider::class```
+Add to application ```config/app.php``` file to section **providers**: ```defyma\helper\LaraRbac\RbacServiceProvider::class```
 
 ### 3.4 Next internal installation steps
 
@@ -121,16 +121,12 @@ Menu config example according with the LaRbac routes:
 
 ### 4.2 User application model
 
-According with the ```Itstructure\LaRbac\Contracts\User``` use functions from ```Itstructure\LaRbac\Models\Administrable``` trait like in example:
+According with the ```defyma\helper\laraRbac\Contracts\User``` use functions from ```defyma\helper\LaraRbac\Models\Administrable``` trait like in example:
 
 ```php
 namespace App;
 
-use Illuminate\Notifications\Notifiable;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Itstructure\LaRbac\Contracts\User as RbacUserContract;
-use Itstructure\LaRbac\Models\Role;
-use Itstructure\LaRbac\Models\Administrable;
+
 ```
 
 ```php

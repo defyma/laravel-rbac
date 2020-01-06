@@ -1,5 +1,5 @@
 {
-    "name": "itstructure/laravel-rbac",
+    "name": "defyma/laravel-rbac",
     "description": "Laravel package for RBAC manage",
     "type": "library",
     "keywords": ["laravel", "rbac"],
@@ -15,9 +15,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "laravel/framework": "~5.1.12|~5.2.0|~5.3.0|~5.4.0|~5.5.0|~5.6.0",
+        "laravel/framework": "^6.2",
         "php": ">=7.1.0",
-        "jeroennoten/laravel-adminlte": "~1.23"
+        "jeroennoten/laravel-adminlte": "^3.0"
     },
     "classmap": [
         "database/migrations",
