@@ -10,7 +10,7 @@
 
                     <h1>Assign user roles for: {{ $user->name }}</h1>
 
-                    <form action="{{ route('update_user', ['user' => $user->id]) }}" method="post">
+                    <form action="{{ route('update_user', ['id' => $user->id]) }}" method="post">
 
                         @include('rbac::users._fields')
 
