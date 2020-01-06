@@ -1,6 +1,6 @@
 <?php
 
-use defyma\helper\LaraRbac\Models\Permission;
+use defyma\LaraRbac\Models\Permission;
 use Illuminate\Database\Seeder;
 
 /**

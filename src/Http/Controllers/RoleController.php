@@ -1,18 +1,18 @@
 <?php
 
-namespace defyma\helper\LaraRbac\Http\Controllers;
+namespace defyma\LaraRbac\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use defyma\helper\LaraRbac\Http\Requests\{Delete as DeleteRoleRequest,
+use defyma\LaraRbac\Http\Requests\{Delete as DeleteRoleRequest,
     StoreRole as StoreRoleRequest,
     UpdateRole as UpdateRoleRequest};
-use defyma\helper\LaraRbac\Models\{Permission, Role};
+use defyma\LaraRbac\Models\{Permission, Role};
 use Illuminate\Support\Facades\Config;
 
 /**
  * Class RoleController
  *
- * @package defyma\helper\LaraRbac\Http\Controllers
+ * @package defyma\LaraRbac\Http\Controllers
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

@@ -1,13 +1,14 @@
 <?php
 
-namespace defyma\helper\LaraRbac\Models;
+namespace defyma\LaraRbac\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 /**
  * Class Permission
  *
- * @package defyma\helper\LaraRbac\Models
+ * @package defyma\LaraRbac\Models
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */
@@ -43,6 +44,6 @@ class Permission extends Model
     public function setNameAttribute($value)
     {
         $this->attributes['name'] = strtolower($value);
-        $this->attributes['slug'] = str_slug(strtolower($value));
+        $this->attributes['slug'] = Str::slug(strtolower($value));
     }
 }

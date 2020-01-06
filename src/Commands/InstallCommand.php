@@ -1,16 +1,16 @@
 <?php
 
-namespace defyma\helper\LaraRbac\Commands;
+namespace defyma\LaraRbac\Commands;
 
-use defyma\helper\LaraRbac\RbacServiceProvider;
+use defyma\LaraRbac\RbacServiceProvider;
 use Illuminate\Console\Command;
-use JeroenNoten\LaravelAdminLte\ServiceProvider as AdminLteServiceProvider;
+use JeroenNoten\LaravelAdminLte\AdminLteServiceProvider as AdminLteServiceProvider;
 use Symfony\Component\Process\Process;
 
 /**
  * Class InstallCommand
  *
- * @package defyma\helper\LaraRbac\Commands
+ * @package defyma\LaraRbac\Commands
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

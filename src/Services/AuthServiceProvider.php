@@ -1,16 +1,16 @@
 <?php
 
-namespace defyma\helper\LaraRbac\Services;
+namespace defyma\LaraRbac\Services;
 
-use defyma\helper\laraRbac\Contracts\{Model as RbacModelContract, User as RbacUserContract};
-use defyma\helper\LaraRbac\Models\Permission;
+use defyma\LaraRbac\Contracts\{Model as RbacModelContract, User as RbacUserContract};
+use defyma\LaraRbac\Models\Permission;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Gate;
 
 /**
  * Class AuthServiceProvider
  *
- * @package defyma\helper\LaraRbac\Services
+ * @package defyma\LaraRbac\Services
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

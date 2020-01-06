@@ -1,13 +1,13 @@
 <?php
 
-namespace defyma\helper\LaraRbac\Commands;
+namespace defyma\LaraRbac\Commands;
 
 use Illuminate\Console\Command;
 
 /**
  * Class DatabaseCommand
  *
- * @package defyma\helper\LaraRbac\Commands
+ * @package defyma\LaraRbac\Commands
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

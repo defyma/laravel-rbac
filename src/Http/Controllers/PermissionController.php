@@ -1,18 +1,18 @@
 <?php
 
-namespace defyma\helper\LaraRbac\Http\Controllers;
+namespace defyma\LaraRbac\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use defyma\helper\LaraRbac\Http\Requests\{Delete as DeletePermissionRequest,
+use defyma\LaraRbac\Http\Requests\{Delete as DeletePermissionRequest,
     StorePermission as StorePermissionRequest,
     UpdatePermission as UpdatePermissionRequest};
-use defyma\helper\LaraRbac\Models\Permission;
+use defyma\LaraRbac\Models\Permission;
 use Illuminate\Support\Facades\Config;
 
 /**
  * Class PermissionController
  *
- * @package defyma\helper\LaraRbac\Http\Controllers
+ * @package defyma\LaraRbac\Http\Controllers
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

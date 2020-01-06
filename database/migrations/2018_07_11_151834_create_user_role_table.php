@@ -1,7 +1,7 @@
 <?php
 
-use defyma\helper\LaraRbac\Exceptions\InvalidConfigException;
-use defyma\helper\LaraRbac\Helpers\Helper;
+use defyma\LaraRbac\Exceptions\InvalidConfigException;
+use defyma\LaraRbac\Helpers\Helper;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -55,7 +55,7 @@ class CreateUserRoleTable extends Migration
         $userModelTable = $userModel->getTable();
 
         Schema::create('user_role', function (Blueprint $table) use ($userModelKeyName, $userModelTable) {
-            $table->unsignedInteger('user_id');
+            $table->unsignedBigInteger('user_id');
             $table->unsignedInteger('role_id');
             $table->timestamps();
             $table->unique(['user_id','role_id']);

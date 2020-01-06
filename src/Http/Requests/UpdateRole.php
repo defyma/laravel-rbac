@@ -1,6 +1,6 @@
 <?php
 
-namespace defyma\helper\LaraRbac\Http\Requests;
+namespace defyma\LaraRbac\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
@@ -8,7 +8,7 @@ use Illuminate\Validation\Rule;
 /**
  * Class UpdateRole
  *
- * @package defyma\helper\LaraRbac\Http\Requests
+ * @package defyma\LaraRbac\Http\Requests
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

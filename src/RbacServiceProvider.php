@@ -1,16 +1,16 @@
 <?php
 
-namespace defyma\helper\LaraRbac;
+namespace defyma\LaraRbac;
 
-use defyma\helper\LaraRbac\Services\AuthServiceProvider;
-use defyma\helper\LaraRbac\Services\RouteServiceProvider;
+use defyma\LaraRbac\Services\AuthServiceProvider;
+use defyma\LaraRbac\Services\RouteServiceProvider;
 use Illuminate\Support\ServiceProvider;
-use JeroenNoten\LaravelAdminLte\ServiceProvider as AdminLteServiceProvider;
+use JeroenNoten\LaravelAdminLte\AdminLteServiceProvider as AdminLteServiceProvider;
 
 /**
  * Class RbacServiceProvider
  *
- * @package defyma\helper\LaraRbac
+ * @package defyma\LaraRbac
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */
@@ -26,9 +26,9 @@ class RbacServiceProvider extends ServiceProvider
         $this->app->register(AuthServiceProvider::class);
 
         // Register commands
-        $this->commands(defyma\helper\LaraRbac\Commands\InstallCommand::class);
-        $this->commands(defyma\helper\LaraRbac\Commands\DatabaseCommand::class);
-        $this->commands(defyma\helper\LaraRbac\Commands\AdminCommand::class);
+        $this->commands(\defyma\LaraRbac\Commands\InstallCommand::class);
+        $this->commands(\defyma\LaraRbac\Commands\DatabaseCommand::class);
+        $this->commands(\defyma\LaraRbac\Commands\AdminCommand::class);
     }
 
     public function boot()

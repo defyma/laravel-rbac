@@ -1,6 +1,6 @@
 <?php
 
-namespace defyma\helper\LaraRbac\Services;
+namespace defyma\LaraRbac\Services;
 
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Route;
@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 /**
  * Class RouteServiceProvider
  *
- * @package defyma\helper\LaraRbac\Services
+ * @package defyma\LaraRbac\Services
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */
@@ -20,7 +20,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'defyma\helper\LaraRbac\Http\Controllers';
+    protected $namespace = 'defyma\LaraRbac\Http\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.

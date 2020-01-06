@@ -1,13 +1,13 @@
 <?php
 
-namespace defyma\helper\LaraRbac\Http\Requests;
+namespace defyma\LaraRbac\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
 /**
  * Class Delete
  *
- * @package defyma\helper\LaraRbac\Http\Requests
+ * @package defyma\LaraRbac\Http\Requests
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

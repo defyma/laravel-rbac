@@ -1,15 +1,16 @@
 <?php
 
-namespace defyma\helper\LaraRbac\Models;
+namespace defyma\LaraRbac\Models;
 
-use defyma\helper\LaraRbac\Exceptions\InvalidConfigException;
-use defyma\helper\LaraRbac\Helpers\Helper;
+use Illuminate\Support\Str;
+use defyma\LaraRbac\Exceptions\InvalidConfigException;
+use defyma\LaraRbac\Helpers\Helper;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class Role
  *
- * @package defyma\helper\LaraRbac\Models
+ * @package defyma\LaraRbac\Models
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */
@@ -91,7 +92,7 @@ class Role extends Model
     public function setNameAttribute($value)
     {
         $this->attributes['name'] = $value;
-        $this->attributes['slug'] = str_slug(strtolower($value));
+        $this->attributes['slug'] = Str::slug(strtolower($value));
     }
 
     /**

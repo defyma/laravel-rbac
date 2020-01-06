@@ -1,15 +1,15 @@
 <?php
 
-namespace defyma\helper\LaraRbac\Commands;
+namespace defyma\LaraRbac\Commands;
 
-use defyma\helper\LaraRbac\Helpers\Helper;
-use defyma\helper\LaraRbac\Models\Role;
+use defyma\LaraRbac\Helpers\Helper;
+use defyma\LaraRbac\Models\Role;
 use Illuminate\Console\Command;
 
 /**
  * Class AdminCommand
  *
- * @package defyma\helper\LaraRbac\Commands
+ * @package defyma\LaraRbac\Commands
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

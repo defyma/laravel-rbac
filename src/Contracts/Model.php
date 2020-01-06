@@ -1,11 +1,11 @@
 <?php
 
-namespace defyma\helper\laraRbac\Contracts;
+namespace defyma\LaraRbac\Contracts;
 
 /**
  * Interface Model
  *
- * @package defyma\helper\laraRbac\Contracts
+ * @package defyma\LaraRbac\Contracts
  *
  * @author Andrey Girnik <girnikandrey@gmail.com>
  */

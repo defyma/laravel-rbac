@@ -1,13 +1,13 @@
 <?php
 
-namespace defyma\helper\LaraRbac\Models;
+namespace defyma\LaraRbac\Models;
 
-use defyma\helper\laraRbac\Contracts\User as RbacUserContract;
+use defyma\LaraRbac\Contracts\User as RbacUserContract;
 
 /**
  * Class Administrable
  *
- * @package defyma\helper\LaraRbac\Models
+ * @package defyma\LaraRbac\Models
  */
 trait Administrable
 {
